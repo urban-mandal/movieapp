@@ -110,3 +110,15 @@ body {
     grid-auto-rows: 300px;
   }
 }
+
+/* next page section */
+.nextpage {
+  width: 100%;
+  display: flex;
+}
+#gotonextpage {
+  margin: 10px 10px 10px auto;
+  color: rgba(245, 245, 245, 0.87);
+  background-color: #161e30;
+  border: 1px solid rgba(245, 245, 245, 0.87);
+}
