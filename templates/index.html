@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie site</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="webmanifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Movie site</h1>
+      <form action="" id='form'>
+        <input type="text" name='formSearch' id="moviesearch" placeholder="Search..." />
+        <button
+          type="submit"
+          aria-label="button"
+          class="search-button"
+          id="subimtform"
+        ></button>
+      </form>
+    </div>
+    <div class="movie" id="gridcont"></div>
+    <div class="nextpage">
+      <button type="button" id="gotonextpage">next page ></button>
+    </div>
+    <script src="../static/script.js"></script>
+  </body>
+</html>
